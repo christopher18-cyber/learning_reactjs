@@ -49,7 +49,7 @@ export default function UseReducerExample() {
     return <div>
 
         {
-            state?.showTextFlag ? <h3>Use reducer Hook example</h3> : null
+            state?.showTextFlag ? <h3 style={{ backgroundColor: state?.changeTextStyle ? "blue" : "black" }}>Use reducer Hook example</h3> : null
         }
 
         <button onClick={() => { dispatch({ type: SHOW_TEXT }) }}>Show text</button>

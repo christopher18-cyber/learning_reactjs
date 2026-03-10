@@ -9,6 +9,7 @@ import './App.css'
 import ContextTextComponent from './components/context-concept/text.jsx'
 import ContextButtonComponent from './components/context-concept/button.jsx'
 import UseReducerExample from './components/use-reducer-example.jsx'
+import FormComponent from './components/form/index.jsx'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <ContextTextComponent />
       <ContextButtonComponent /> */}
-      <UseReducerExample />
+      {/* <UseReducerExample /> */}
+      <FormComponent />
     </div>
   )
 }
