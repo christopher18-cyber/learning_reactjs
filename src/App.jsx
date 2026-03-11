@@ -10,6 +10,9 @@ import ContextTextComponent from './components/context-concept/text.jsx'
 import ContextButtonComponent from './components/context-concept/button.jsx'
 import UseReducerExample from './components/use-reducer-example.jsx'
 import FormComponent from './components/form/index.jsx'
+import FormPracticeComponent from './components/form/practice.jsx'
+import LoginComponent from './components/login/index.jsx'
+import RegisterComponent from './components/register/index.jsx'
 
 function App() {
   return (
@@ -23,7 +26,15 @@ function App() {
       {/* <ContextTextComponent />
       <ContextButtonComponent /> */}
       {/* <UseReducerExample /> */}
-      <FormComponent />
+      {/* <FormComponent /> */}
+      {/* <FormPracticeComponent /> */}
+      <div style={{
+        display: "flex",
+        gap: "50px"
+      }}>
+        <LoginComponent />
+        <RegisterComponent />
+      </div>
     </div>
   )
 }
